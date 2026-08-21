@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "generated_utc": "2026-08-21T03:14:42Z",
+  "generator": "merge-manifest.sh/2.0",
+  "firmware": [
+    {
+      "id": "1.5.5-9p-standard-experimental",
+      "version": "1.5.5",
+      "pole": "9p",
+      "hardware_type": "9 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-08-21T03:14:33Z",
+      "release_tag": "fw-1.5.5-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.5-beta",
+      "release_notes": "* Fixed an issue where device discovery reported TLS even when the device was set to TCP only.",
+      "commit": "e5294f9d93d1",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_9p_TLS_V3_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_9p_TLS_V3_210826_1_5_5.eehex",
+          "size_bytes": 999441,
+          "sha256": "e6374e83e1d7f6ea6fd1dd052aa5e80ad351f24ee2f330c60d6efe0cc85936c1",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_9p_TLS_V2_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_9p_TLS_V2_210826_1_5_5.eehex",
+          "size_bytes": 998856,
+          "sha256": "82136dd97206935c5243c0eba81a17a68aba3fcd10381301a5c2246c97eee1f8",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_9p_TLS_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_9p_TLS_210826_1_5_5.eehex",
+          "size_bytes": 998855,
+          "sha256": "4d3900da8d45bfe82ca91dc205c56cab29dcb4ae2c89c344a27a06c952d17683",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.5.5-6p-standard-experimental",
+      "version": "1.5.5",
+      "pole": "6p",
+      "hardware_type": "6 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-08-21T03:14:33Z",
+      "release_tag": "fw-1.5.5-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.5-beta",
+      "release_notes": "* Fixed an issue where device discovery reported TLS even when the device was set to TCP only.",
+      "commit": "e5294f9d93d1",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_6p_TLS_V3_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_6p_TLS_V3_210826_1_5_5.eehex",
+          "size_bytes": 1093285,
+          "sha256": "d864823e0436bca360ae04f27fc956f55154888e985653b70fa32740d6ba5389",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_6p_TLS_V2_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_6p_TLS_V2_210826_1_5_5.eehex",
+          "size_bytes": 1092700,
+          "sha256": "3b0a30f08e9c86020e63c624216d43134f231b2b752a0b5e44137baffc1971db",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_6p_TLS_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_6p_TLS_210826_1_5_5.eehex",
+          "size_bytes": 1092701,
+          "sha256": "6fbc232fbadfe5b9749d45eda8f107813aefee9bcbd2b23543b3b9b210fd83ab",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.5.5-4p-standard-experimental",
+      "version": "1.5.5",
+      "pole": "4p",
+      "hardware_type": "4 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-08-21T03:14:33Z",
+      "release_tag": "fw-1.5.5-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.5-beta",
+      "release_notes": "* Fixed an issue where device discovery reported TLS even when the device was set to TCP only.",
+      "commit": "e5294f9d93d1",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_4p_TLS_V3_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_4p_TLS_V3_210826_1_5_5.eehex",
+          "size_bytes": 985201,
+          "sha256": "576530e8d1fb49d6abb379efbc480e15e7f7a4d0425d1b33e6ae73ed67a30348",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_4p_TLS_V2_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_4p_TLS_V2_210826_1_5_5.eehex",
+          "size_bytes": 984631,
+          "sha256": "f2438b02b56a522d454de724ade72f7550bc9e26aba2bcde79bd5016adb129f7",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_4p_TLS_210826_1_5_5.eehex",
+          "filename": "edidio_firmware_4p_TLS_210826_1_5_5.eehex",
+          "size_bytes": 984633,
+          "sha256": "b9a8f0b6420ee4b3ab3607b81217afbb77926fc5f7227cffcdbd69564bd78883",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    }
+  ],
+  "latest": {
+    "4p|standard|experimental": "1.5.5-4p-standard-experimental",
+    "6p|standard|experimental": "1.5.5-6p-standard-experimental",
+    "9p|standard|experimental": "1.5.5-9p-standard-experimental"
+  }
+}
