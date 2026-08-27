@@ -1,5 +1,10 @@
 # eDIDIO Firmware Release Notes
 
+## 1.5.6
+
+* Fixed an issue where the device could restart when queried by a BACnet client.
+* Fixed an issue where the BACnet BBMD broadcast distribution table was not retained after a restart.
+
 ## 1.5.5
 
 * Fixed an issue where device discovery reported TLS even when the device was set to TCP only.

@@ -1,8 +1,182 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-08-21T03:14:42Z",
+  "generated_utc": "2026-08-27T05:36:58Z",
   "generator": "merge-manifest.sh/2.0",
   "firmware": [
+    {
+      "id": "1.5.6-9p-standard-experimental",
+      "version": "1.5.6",
+      "pole": "9p",
+      "hardware_type": "9 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-08-27T05:22:00Z",
+      "release_tag": "fw-1.5.6-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.6-beta",
+      "release_notes": "* Fixed an issue where the device could restart when queried by a BACnet client.\n* Fixed an issue where the BACnet BBMD broadcast distribution table was not retained after a restart.",
+      "commit": "63b38f2ada22",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_9p_TLS_V3_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_9p_TLS_V3_270826_1_5_6.eehex",
+          "size_bytes": 999529,
+          "sha256": "b2632b78da8f7543eb578638ca11d9275057d79de499b3352f160c2753431a4f",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_9p_TLS_V2_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_9p_TLS_V2_270826_1_5_6.eehex",
+          "size_bytes": 998944,
+          "sha256": "30fa371df4bca24b455d75cd8fff6a07d7ef674c8773b58e1a86432dcc5eec55",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_9p_TLS_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_9p_TLS_270826_1_5_6.eehex",
+          "size_bytes": 998944,
+          "sha256": "efb4620d485b54151192cb72149a1b5f11937a4419c21f5fca70a30df3f55cab",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.5.6-6p-standard-experimental",
+      "version": "1.5.6",
+      "pole": "6p",
+      "hardware_type": "6 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-08-27T05:22:00Z",
+      "release_tag": "fw-1.5.6-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.6-beta",
+      "release_notes": "* Fixed an issue where the device could restart when queried by a BACnet client.\n* Fixed an issue where the BACnet BBMD broadcast distribution table was not retained after a restart.",
+      "commit": "63b38f2ada22",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_6p_TLS_V3_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_6p_TLS_V3_270826_1_5_6.eehex",
+          "size_bytes": 1093672,
+          "sha256": "667eb82de37e5bd9dc70feb755f7ff13f7dad322e999944f72b8f7d71f96a549",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_6p_TLS_V2_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_6p_TLS_V2_270826_1_5_6.eehex",
+          "size_bytes": 1093091,
+          "sha256": "c48ee523efc418c42cffda65962b2e06343e19bdbd9e763e0716203377cd6928",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_6p_TLS_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_6p_TLS_270826_1_5_6.eehex",
+          "size_bytes": 1093092,
+          "sha256": "c9bf1ac94db1179bb64c0ea1b368ac7a42aec1c9a18e9b4dcc67a7ce9e472ba0",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.5.6-4p-standard-experimental",
+      "version": "1.5.6",
+      "pole": "4p",
+      "hardware_type": "4 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-08-27T05:22:00Z",
+      "release_tag": "fw-1.5.6-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.6-beta",
+      "release_notes": "* Fixed an issue where the device could restart when queried by a BACnet client.\n* Fixed an issue where the BACnet BBMD broadcast distribution table was not retained after a restart.",
+      "commit": "63b38f2ada22",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_4p_TLS_V3_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_4p_TLS_V3_270826_1_5_6.eehex",
+          "size_bytes": 985289,
+          "sha256": "4dc2ab963e98c63b0d50b43e2904168285649af8a3ee4780e222345b2d0c6397",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_4p_TLS_V2_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_4p_TLS_V2_270826_1_5_6.eehex",
+          "size_bytes": 984722,
+          "sha256": "fed09ef4dbdcbae8b9c91671c553dea22fafffe3996ad1ee4cc73f30af4e96e6",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_4p_TLS_270826_1_5_6.eehex",
+          "filename": "edidio_firmware_4p_TLS_270826_1_5_6.eehex",
+          "size_bytes": 984720,
+          "sha256": "21f1fef6059c68374a9bda603ef551fe57f3acac1a36a32660182cacb4f783d8",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
     {
       "id": "1.5.5-9p-standard-experimental",
       "version": "1.5.5",
@@ -179,8 +353,8 @@
     }
   ],
   "latest": {
-    "4p|standard|experimental": "1.5.5-4p-standard-experimental",
-    "6p|standard|experimental": "1.5.5-6p-standard-experimental",
-    "9p|standard|experimental": "1.5.5-9p-standard-experimental"
+    "4p|standard|experimental": "1.5.6-4p-standard-experimental",
+    "6p|standard|experimental": "1.5.6-6p-standard-experimental",
+    "9p|standard|experimental": "1.5.6-9p-standard-experimental"
   }
 }

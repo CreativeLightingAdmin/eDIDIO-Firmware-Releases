@@ -1,6 +1,27 @@
 {
   "firmware": [
     {
+      "version": "1.5.6",
+      "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_9p_TLS_270826_1_5_6.eehex",
+      "hardware_type": "9 Pole",
+      "channel": "experimental",
+      "encryption_version": "v1"
+    },
+    {
+      "version": "1.5.6",
+      "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_6p_TLS_270826_1_5_6.eehex",
+      "hardware_type": "6 Pole",
+      "channel": "experimental",
+      "encryption_version": "v1"
+    },
+    {
+      "version": "1.5.6",
+      "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.6-beta/edidio_firmware_4p_TLS_270826_1_5_6.eehex",
+      "hardware_type": "4 Pole",
+      "channel": "experimental",
+      "encryption_version": "v1"
+    },
+    {
       "version": "1.5.5",
       "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.5-beta/edidio_firmware_9p_TLS_210826_1_5_5.eehex",
       "hardware_type": "9 Pole",
