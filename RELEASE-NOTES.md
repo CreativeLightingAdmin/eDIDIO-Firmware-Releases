@@ -1,5 +1,11 @@
 # eDIDIO Firmware Release Notes
 
+## 1.5.7
+
+* Improved the reliability of line diagnostics.
+* Fixed an issue where an RDM query could return the result of the previous query.
+* Fixed an issue where an RDM discovery could be disrupted by another request on the same line.
+
 ## 1.5.6
 
 * Fixed an issue where the device could restart when queried by a BACnet client.

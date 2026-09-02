@@ -1,8 +1,182 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-08-27T05:36:58Z",
+  "generated_utc": "2026-09-02T03:29:14Z",
   "generator": "merge-manifest.sh/2.0",
   "firmware": [
+    {
+      "id": "1.5.7-9p-standard-experimental",
+      "version": "1.5.7",
+      "pole": "9p",
+      "hardware_type": "9 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-09-02T03:29:08Z",
+      "release_tag": "fw-1.5.7-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.7-beta",
+      "release_notes": "* Improved the reliability of line diagnostics.\n* Fixed an issue where an RDM query could return the result of the previous query.\n* Fixed an issue where an RDM discovery could be disrupted by another request on the same line.",
+      "commit": "bfa1f8ee7210",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_9p_TLS_V3_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_9p_TLS_V3_020926_1_5_7.eehex",
+          "size_bytes": 1003768,
+          "sha256": "65d05eb5bbfe2fb9381603531c5e96a9f6dfe9e24577461713b0f72a857ce313",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_9p_TLS_V2_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_9p_TLS_V2_020926_1_5_7.eehex",
+          "size_bytes": 1003188,
+          "sha256": "25edc0afbefe717d27b6bbdb7abc48e22f0b558edaec512dd29b967c1b76d1b6",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_9p_TLS_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_9p_TLS_020926_1_5_7.eehex",
+          "size_bytes": 1003187,
+          "sha256": "b56d713b12aee5ce9238a6effae5cc096de9906c6531e380b94c75ec246408d7",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.5.7-6p-standard-experimental",
+      "version": "1.5.7",
+      "pole": "6p",
+      "hardware_type": "6 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-09-02T03:29:08Z",
+      "release_tag": "fw-1.5.7-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.7-beta",
+      "release_notes": "* Improved the reliability of line diagnostics.\n* Fixed an issue where an RDM query could return the result of the previous query.\n* Fixed an issue where an RDM discovery could be disrupted by another request on the same line.",
+      "commit": "bfa1f8ee7210",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_6p_TLS_V3_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_6p_TLS_V3_020926_1_5_7.eehex",
+          "size_bytes": 1097281,
+          "sha256": "cd20058b8b60b188cf9f3fca9785bc3a47c06af1a806588fceb0ca2f0495fb26",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_6p_TLS_V2_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_6p_TLS_V2_020926_1_5_7.eehex",
+          "size_bytes": 1096697,
+          "sha256": "bfeffcec0292eb2759437fc26422fc9c59c73eb4df4738ca3b915029179f006d",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_6p_TLS_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_6p_TLS_020926_1_5_7.eehex",
+          "size_bytes": 1096698,
+          "sha256": "e3fcd03a43da468b419503811e5d8abd8baafd6dc833702f1301c8f67f9dc23b",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.5.7-4p-standard-experimental",
+      "version": "1.5.7",
+      "pole": "4p",
+      "hardware_type": "4 Pole",
+      "channel": "experimental",
+      "features": [
+        "tls"
+      ],
+      "feature_set": "standard",
+      "feature_label": "Standard",
+      "released_utc": "2026-09-02T03:29:08Z",
+      "release_tag": "fw-1.5.7-beta",
+      "release_notes_url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/tag/fw-1.5.7-beta",
+      "release_notes": "* Improved the reliability of line diagnostics.\n* Fixed an issue where an RDM query could return the result of the previous query.\n* Fixed an issue where an RDM discovery could be disrupted by another request on the same line.",
+      "commit": "bfa1f8ee7210",
+      "variants": [
+        {
+          "encryption_version": "v3",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_4p_TLS_V3_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_4p_TLS_V3_020926_1_5_7.eehex",
+          "size_bytes": 989592,
+          "sha256": "e62488b49015e7580d03ddc31b8e584b36178c9b5e84d9b82c53e6b6df0fa128",
+          "preference": 30,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": "1.5.2",
+            "confidentiality_key": true
+          }
+        },
+        {
+          "encryption_version": "v2",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_4p_TLS_V2_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_4p_TLS_V2_020926_1_5_7.eehex",
+          "size_bytes": 989014,
+          "sha256": "5a5b25364daafd1c7b8f4a6d3f7577c0dc7aacee00b4894b203512f071f70340",
+          "preference": 20,
+          "requires": {
+            "min_bootloader": "2.2.0",
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        },
+        {
+          "encryption_version": "v1",
+          "url": "https://github.com/CreativeLightingAdmin/eDIDIO-Firmware-Releases/releases/download/fw-1.5.7-beta/edidio_firmware_4p_TLS_020926_1_5_7.eehex",
+          "filename": "edidio_firmware_4p_TLS_020926_1_5_7.eehex",
+          "size_bytes": 989014,
+          "sha256": "e94244e9906b2cebc8dee81b362f24bc564963b0665a7d9ca3f85681ca689e04",
+          "preference": 10,
+          "requires": {
+            "min_bootloader": null,
+            "min_firmware": null,
+            "confidentiality_key": false
+          }
+        }
+      ]
+    },
     {
       "id": "1.5.6-9p-standard-experimental",
       "version": "1.5.6",
@@ -353,8 +527,8 @@
     }
   ],
   "latest": {
-    "4p|standard|experimental": "1.5.6-4p-standard-experimental",
-    "6p|standard|experimental": "1.5.6-6p-standard-experimental",
-    "9p|standard|experimental": "1.5.6-9p-standard-experimental"
+    "4p|standard|experimental": "1.5.7-4p-standard-experimental",
+    "6p|standard|experimental": "1.5.7-6p-standard-experimental",
+    "9p|standard|experimental": "1.5.7-9p-standard-experimental"
   }
 }
